@@ -1,8 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage":"https://charlenechen1997.github.io/ps7/",
-  "private": true,
+  "homepage": "https://students.washington.edu/manjic/ps7",
+  "private": false,
   "dependencies": {
     "bootstrap": "^4.1.3",
     "d3": "^5.7.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy":"npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -19,18 +19,18 @@ export class Portfolio extends Component {
     render() {
         return <div className="container">Projects
                  { this.state.data.map((d, i) => {
-                       return <Col lg="8" key={ "photo" + i }>
-                                <Card>
-                                  <img alt="portfolio_pictures" className="card-img-top" src={d.link}></img>
-                                <CardBody>
-                                    <CardText>
-                                    { d.location }
-                                  </CardText>
-                                </CardBody>
-                              </Card>
-                              <br/>
-                              </Col>
-                   
+                    return <Col lg="8" key={ "photo" + i }>
+                            <Card>
+                                <img alt="portfolio_pictures" className="card-img-top" src={d.link}></img>
+                            <CardBody>
+                                <CardText>
+                                { d.location }
+                                </CardText>
+                            </CardBody>
+                            </Card>
+                            <br/>
+                            </Col>
+                
                    }) }
                </div>
     }

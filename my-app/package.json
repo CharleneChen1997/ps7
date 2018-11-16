@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage":"http://students.washington.edu/manjic/ps7",
+  "homepage":"https://charlenechen1997.github.io/ps7/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
